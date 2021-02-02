@@ -10,7 +10,7 @@
 <h4 align="center">A minimal CLI tool that waits for a specific <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status" target="_blank">HTTP status code</a> to be returned.</h4>
 
 <p align="center">
-  <a href="#key-features">Key Features</a> •
+  <a href="#features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#download">Download</a> •
 </p>
