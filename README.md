@@ -30,7 +30,7 @@ $ go get github.com/thetreep/http_wait
 
 # Check out the built-in doc!
 $ http_wait -h
-Usage of http_wait.exe:
+Usage of http_wait:
       --i int               alias to interval (default 1000)
       --interval int        Polling interval, in milliseconds. Defaults to 1000ms (default 1000)
       --p int               alias to port (default 80)
