@@ -17,11 +17,11 @@ func main() {
 		"response-code": "rc",
 	}
 
-	var endpoint = flag.String("uri", "http://localhost", "URI, with protocol and no port. Defaults to http://localhost")
-	var port = flag.Int("port", 80, "Port to use. Defaults to 80")
-	var timeout = flag.Int("timeout", 10000, "Timeout before returning a non 0 exit code, in milliseconds. Defaults to 10000ms")
-	var interval = flag.Int("interval", 1000, "Polling interval, in milliseconds. Defaults to 1000ms")
-	var responseCode = flag.Int("response-code", 200, "Response code to wait for. Defaults to 200")
+	var endpoint = flag.String("uri", "http://localhost", "URI, with protocol and no port.")
+	var port = flag.Int("port", 80, "Port to use.")
+	var timeout = flag.Int("timeout", 10000, "Timeout before returning a non 0 exit code, in milliseconds.")
+	var interval = flag.Int("interval", 1000, "Polling interval, in milliseconds.")
+	var responseCode = flag.Int("response-code", 200, "Response code to wait for.")
 
 	for from, to := range flagAlias {
 		flagSet := flag.Lookup(from)
