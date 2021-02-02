@@ -32,15 +32,15 @@ $ go get github.com/thetreep/http_wait
 $ http_wait -h
 Usage of http_wait:
       --i int               alias to interval (default 1000)
-      --interval int        Polling interval, in milliseconds. Defaults to 1000ms (default 1000)
+      --interval int        Polling interval, in milliseconds. (default 1000)
       --p int               alias to port (default 80)
-      --port int            Port to use. Defaults to 80 (default 80)
+      --port int            Port to use. (default 80)
       --rc int              alias to response-code (default 200)
-      --response-code int   Response code to wait for. Defaults to 200 (default 200)
+      --response-code int   Response code to wait for. (default 200)
       --t int               alias to timeout (default 10000)
-      --timeout int         Timeout before returning a non 0 exit code, in milliseconds. Defaults to 10000ms (default 10000)
+      --timeout int         Timeout before returning a non 0 exit code, in milliseconds. (default 10000)
       --u string            alias to uri (default "http://localhost")
-      --uri string          URI, with protocol and no port. Defaults to http://localhost (default "http://localhost")
+      --uri string          URI, with protocol and no port. (default "http://localhost")
 ```
 
 ## Download
